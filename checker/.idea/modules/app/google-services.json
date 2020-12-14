@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1047144694359",
+    "project_id": "checker-525b1",
+    "storage_bucket": "checker-525b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047144694359:android:88f7d33e665283ea7e5912",
+        "android_client_info": {
+          "package_name": "com.example.checker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047144694359-d55fs5jpv5sjef58l0oqifcelkvkum34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.checker",
+            "certificate_hash": "1d5260731f261789d4bff9df1265a7693e73db53"
+          }
+        },
+        {
+          "client_id": "1047144694359-rcqn8og2kjhhrjdsursdq6p71koe81im.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_zzvlIekOXDgwuDkz0_lomf4qp_j1Kfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047144694359-rcqn8og2kjhhrjdsursdq6p71koe81im.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

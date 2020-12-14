@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "913694418717",
+    "firebase_url": "https://checker-a256a-default-rtdb.firebaseio.com",
+    "project_id": "checker-a256a",
+    "storage_bucket": "checker-a256a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913694418717:android:99c54405ae25abc5f823f4",
+        "android_client_info": {
+          "package_name": "com.example.checker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913694418717-q1kebuaajnbr5do79koongv3o6np7fqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYlqq4rWrcvCKAOBnT60ssenNe6_t-4vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913694418717-q1kebuaajnbr5do79koongv3o6np7fqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

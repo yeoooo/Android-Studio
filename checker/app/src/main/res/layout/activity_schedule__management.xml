@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation = "vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="일정 이름"
+            android:id="@+id/tv_name"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/scheduleName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            ></EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:lines="1"
+            android:text="일정 내용"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/scheduleCont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="시간" />
+
+            <TimePicker
+                android:id="@+id/alarmPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:timePickerMode="spinner" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <RadioGroup
+                android:id="@+id/rbg"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/rb_ondead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="종료일에만"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rb_daily"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="매일"></RadioButton>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="날짜"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_startDate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="2020/12/10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_weight="0.1"
+                android:text="~"
+                />
+
+            <EditText
+                android:id="@+id/et_endDate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="2020/12/10"/>
+
+
+
+        </LinearLayout>
+        <!--        -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="취소"/>
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="확인"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
